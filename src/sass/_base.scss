@@ -1,0 +1,32 @@
+body {
+  background-color: #151D28;
+  font-family: 'Gilroy', 'sans-serif';
+  color: white;
+}
+/* .section {
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
+
+  /* @media screen and (min-width: 320px) and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}  */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}

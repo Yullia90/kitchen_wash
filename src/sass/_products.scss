@@ -1,0 +1,265 @@
+.products {
+  background-position: top center;
+  background-size: 1400px;
+  padding-bottom: 180px;
+}
+
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.products-item {
+  padding: 30px;
+  background: #415167;
+  border: 1px solid #353535;
+  border-radius: 16px;
+}
+
+.products-item-image {
+  height: 250px;
+}
+
+.products-item-image img {
+  max-width: 100%; 
+  cursor: pointer;
+ 
+}
+
+.products-item-title {
+  font-size: 24px;
+  line-height: 29px;
+  /* padding: 24px 0; */
+}
+
+.products-item-extra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-item-price {
+  font-size: 32px;
+  line-height: 60px;
+  /* margin-bottom: 8px; */
+  margin-left: 25px
+}
+
+.products-item-weight {
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+}
+
+.button.product-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 182px;
+  height: 62px;
+}
+
+.button.product-button span:first-child {
+  margin-right: 10px;
+}
+/* Слайдер */
+.slick-slider{
+	min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	
+}
+
+/* Слайд */
+.slick-slide{}
+/* Слайд активный */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+
+/* Точки */
+.slick-dots{}
+.slick-dots li{}
+.slick-dots button{}
+
+/* Конкретный слайдер */
+.slider {
+	position: relative;
+	padding: 0px 60px;
+}
+
+@media (max-width:767px){
+	.slider {
+		padding: 0px 40px;
+	}
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px -15px 0px -15px;
+	z-index: 10;
+	font-size: 0;
+	width: 33px;
+	height: 33px;
+  cursor: pointer;
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url('/assets/sl-arrow_l.svg') 0 0 / 50% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url('/assets/sl-arrow_r.svg') 0 0 / 50% no-repeat;
+}
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px 10px;
+}
+.slider .slick-dots button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider .slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+
+.slider__item {
+	padding: 0px 15px;
+  
+}
+.slider__item img{
+	max-width: 100%;
+  
+}
+.slider__item.slick-center{
+	
+}
+/* Таблиця властивостей */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #C7A17A;
+}
+
+th, td {
+    text-align: center;
+    padding: 16px;
+    background-color: #555
+}
+
+tr:nth-child(even) {
+    background-color: #555
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 11; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all 0.8s ease 0s;
+  }
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-about {
+  background: #C7A17A;
+  border-radius: 100px;
+  padding: 7px 16px;
+  display: inline-block;
+  margin-left: 209px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  
+}
+
+/* Стилі для модального вікна зображення*/
+.modal-image-card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+/* Стилі для збільшеного зображення в модальному вікні */
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.contacts{
+
+}
