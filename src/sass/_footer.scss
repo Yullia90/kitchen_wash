@@ -1,0 +1,132 @@
+/* Footer */
+.footer {
+  /* background: #2f303a; */
+  padding: 60px 100px 0px 100px;
+  
+}
+/* .footer .container {
+  display: flex;
+  
+} */
+
+.contact-web {
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+.footer-tablet {
+  
+  @media screen and (min-width: 320px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+    margin-bottom: 0;
+  }
+}
+.contacts {
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
+
+.contacts__link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.accent {
+  color: var(--first-color);
+}
+
+.contacts__contacts-type {
+  margin-bottom: 9px;
+}
+
+.contacts__list {
+  display: block;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.contacts__map {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--first-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent);
+  }
+}
+
+.contacts__contact {
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent);
+  }
+}
+
+/*.network {
+}*/
+
+.network__text {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-color);
+  margin-bottom: 20px;
+}
+
+.network__list {
+  display: flex;
+  gap: 10px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.network__icon-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff1a;
+  color: var(--first-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent);
+  }
+}
+
