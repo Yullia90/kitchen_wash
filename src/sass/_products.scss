@@ -1,12 +1,13 @@
 .products {
   background-position: top center;
   background-size: 1400px;
-  padding-bottom: 180px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .products-items {
   display: grid;
-  grid-template-columns: repeat(3, 384px);
+  grid-template-columns: repeat(3, 374px);
   gap: 24px;
   margin-top: 60px;
 }
@@ -260,6 +261,4 @@ tr:nth-child(even) {
   max-height: 90%;
 }
 
-.contacts{
 
-}

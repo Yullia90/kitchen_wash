@@ -3,11 +3,12 @@ body {
   font-family: 'Gilroy', 'sans-serif';
   color: white;
 }
-/* .section {
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 
-  /* @media screen and (min-width: 320px) and (max-width: 1199px) {
+ .section {
+   padding-top: 94px;
+  padding-bottom: 94px; 
+
+   @media screen and (min-width: 320px) and (max-width: 1199px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -15,7 +16,8 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-}  */
+}  
+
 .container {
   max-width: 1200px;
   margin: 0 auto;

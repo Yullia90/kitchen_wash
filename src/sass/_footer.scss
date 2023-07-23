@@ -1,7 +1,7 @@
 /* Footer */
 .footer {
   /* background: #2f303a; */
-  padding: 60px 100px 0px 100px;
+  // padding: 60px 100px 20px 100px;
   
 }
 /* .footer .container {
@@ -40,7 +40,7 @@
   }
 }
 .contacts {
-  
+  padding: 60px 100px 20px 100px; 
   @media screen and (min-width: 320px) and (max-width: 767px) {
     margin-bottom: 60px;
   }
@@ -93,8 +93,8 @@
   }
 }
 
-/*.network {
-}*/
+.network {
+ margin-left: 200px;}
 
 .network__text {
   font-size: 14px;

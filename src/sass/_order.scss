@@ -1,4 +1,6 @@
 .order {
+  padding-top: 60px;
+ 
 } 
 
 .order .container {
@@ -7,9 +9,12 @@
 
 .order-image {
   position: absolute;
-  top: 0;
+  top: 140;
+  width: 742px;
+  height: 668px;
   right: calc(100% - 764px);
   z-index: -1;
+  border-radius: 16px;
 }
 
 .order-form {
@@ -17,9 +22,9 @@
   border: 1px solid #353535;
   border-radius: 16px;
   margin-top: 60px;
-  max-width: 426px;
+  // max-width: 426px;
   box-sizing: border-box;
-  padding: 60px 40px;
+  padding: 60px 75px;
   margin-left: 674px;
 }
 
