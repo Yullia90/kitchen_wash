@@ -1,2 +1,0 @@
-document.getElementById("main-action-button").onclick=function(){document.getElementById("products").scrollIntoView({behavior:"smooth"})};let t=document.querySelectorAll(".menu-item > a");for(let e=0;e<t.length;e++)t[e].onclick=function(){document.getElementById(t[e].getAttribute("data-link")).scrollIntoView({behavior:"smooth"})};window.onscroll=function(){document.body.scrollTop>20||document.documentElement.scrollTop>20?document.getElementById("myBtn").style.display="block":document.getElementById("myBtn").style.display="none"};
-//# sourceMappingURL=index.29e2a0df.js.map
